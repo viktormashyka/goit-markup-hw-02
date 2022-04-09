@@ -119,6 +119,7 @@ body {
 .main-order-button:focus {
   color: var(--hover-color);
 background-color: var(--third-color);
+}
 
 .button {
 cursor: pointer
