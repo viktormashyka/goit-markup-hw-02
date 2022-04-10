@@ -11,10 +11,6 @@ body {
   list-style: none;
 }
 
-address {
-  font-style: normal;
-}
-
 :root {
   --main-color: #212121;
   --second-color: #757575;
@@ -108,21 +104,19 @@ address {
 
 .main-order-button {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.88;
-  /* display: flex; */
-  align-items: center;
+  line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--third-color);
   background-color: var(--hover-color);
 }
 
 .main-order-button:hover,
 .main-order-button:focus {
-  color: var(--hover-color);
-  background-color: var(--third-color);
+  color: var(--main-color);
+  background-color: #f5f4fa;
 }
 
 .button {
@@ -131,7 +125,6 @@ address {
 /* -----------------------------MAIN-BENEFITS---------------------------- */
 
 .main-benefits {
-  /* background-color: #E5E5E5; */
 }
 .main-benefits-title {
 }
@@ -149,7 +142,6 @@ address {
 }
 
 .main-benefits-item-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -157,7 +149,6 @@ address {
 }
 /* -----------------------------MAIN-SERVICES---------------------------- */
 .main-services {
-  /* background-color: #E5E5E5; */
 }
 
 .main-services-title {
@@ -200,7 +191,6 @@ address {
 }
 
 .main-team-item-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -244,15 +234,13 @@ address {
 
 .footer-contact:hover,
 .footer-contact:focus {
-  color: var(--hover-color);
+  color: #ffffff;
 }
 
 .address {
-  text-decoration: none;
-  list-style: none;
+  font-style: normal;
 }
 
-.footer-address-text:hover,
-.footer-address-text:focus {
-  color: var(--hover-color);
+.footer-address-list {
+  font-style: normal;
 }
