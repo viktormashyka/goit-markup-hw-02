@@ -10,6 +10,11 @@ body {
 .list {
   list-style: none;
 }
+
+address {
+  font-style: normal;
+}
+
 :root {
   --main-color: #212121;
   --second-color: #757575;
@@ -25,7 +30,6 @@ body {
 }
 .header-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -116,6 +120,28 @@ background-color: var(--third-color);
 .button {
 cursor: pointer}
 
+.visualy-hidden {
+
+}
+
+.portfolio-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.portfolio-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
 /* -----------------------------FOOTER---------------------------- */
 .footer {
   background-color: var(--background-color);
@@ -123,7 +149,6 @@ cursor: pointer}
 
 .footer-logo {
   font-family: 'Raleway';
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -139,16 +164,16 @@ cursor: pointer}
 
 .footer-address-text {
   font-size: 14px;
-line-height: 1.71
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
 }
 
 .footer-contact {
   font-size: 14px;
-line-height: 1.71
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-contact:hover,
